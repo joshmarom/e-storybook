@@ -11,6 +11,7 @@
     "start": "webpack-dev-server --open",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "publish-storybook": "build-storybook build-components",
     "storybook-delete-components": "IF EXIST auto-components RMDIR /Q/S auto-components IF EXIST stories\\components RMDIR /Q/S stories\\components"
   },
   "author": "",
